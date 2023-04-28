@@ -3,7 +3,7 @@ export default function renderImageCard(arr, gallery) {
     .map(
       img => `<div class="photo-card">
         <a href="${img.largeImageURL}">
-          <img class="photo" src="${img.webformatURL}" alt="${img.tags}" loading="lazy" />
+          <img class="photo-img" src="${img.webformatURL}" alt="${img.tags}" loading="lazy" />
         </a>
         <div class="info">
           <p class="info-item">
